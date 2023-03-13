@@ -1,0 +1,25 @@
+{
+  "name": "@derekjwilliams/linkedstack",
+  "version": "1.0.0",
+  "description": "Simple Linked Stack; using a functional approach",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekjwilliams/LinkedStack.git"
+  },
+  "keywords": [
+    "Stack",
+    "Curry",
+    "Functional",
+    "Linked"
+  ],
+  "author": "Derek Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekjwilliams/LinkedStack/issues"
+  },
+  "homepage": "https://github.com/derekjwilliams/LinkedStack#readme"
+}
