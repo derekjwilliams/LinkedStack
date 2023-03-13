@@ -2,7 +2,8 @@
   "name": "@derekjwilliams/linkedstack",
   "version": "1.0.0",
   "description": "Simple Linked Stack; using a functional approach",
-  "main": "index.js",
+  "type": "module",
+  "main": "linkedstack",
   "scripts": {
     "test": "mocha tests/*.js"
   },
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/derekjwilliams/LinkedStack/issues"
   },
-  "homepage": "https://github.com/derekjwilliams/LinkedStack#readme"
+  "homepage": "https://github.com/derekjwilliams/LinkedStack#readme",
+  "devDependencies": {
+    "@types/mocha": "^10.0.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.7"
+  }
 }
