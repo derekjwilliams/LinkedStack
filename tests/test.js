@@ -1,4 +1,3 @@
-// var assert = require('assert');
 import * as assert from 'assert';
 import { expect } from 'chai';
 import {stackPush, stackPop, stackGetIterator, stackPeek} from '../linkedstack.js';
